@@ -30,5 +30,15 @@
         android:name="ru.mirea.maiorovaa.mireaproject.fragment_microphone"
         android:label="fragment_microphone"
         tools:layout="@layout/fragment_microphone" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.maiorovaa.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_fileoperations"
+        android:name="ru.mirea.maiorovaa.mireaproject.FileOperationsFragment"
+        android:label="fragment_file_operations"
+        tools:layout="@layout/fragment_file_operations" />
 
 </navigation>
