@@ -15,5 +15,20 @@
         android:name="ru.mirea.maiorovaa.mireaproject.WebViewFragment"
         android:label="menu_webview"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.maiorovaa.mireaproject.fragment_sensor"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.maiorovaa.mireaproject.fragment_camera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.maiorovaa.mireaproject.fragment_microphone"
+        android:label="fragment_microphone"
+        tools:layout="@layout/fragment_microphone" />
 
 </navigation>

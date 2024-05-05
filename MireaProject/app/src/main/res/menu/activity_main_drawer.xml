@@ -4,11 +4,23 @@
         <item
             android:id="@+id/nav_data"
             android:icon="@drawable/ic_launcher_foreground"
-            android:title="menu_data" />
+            android:title="Data" />
         <item
             android:id="@+id/nav_webview"
             android:icon="@drawable/ic_launcher_background"
-            android:title="menu_webview" />
+            android:title="Webview" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sensor" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_microphone"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Microphone" />
     </group>
 
 </menu>
