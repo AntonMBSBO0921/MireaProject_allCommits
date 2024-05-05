@@ -29,6 +29,10 @@
             android:id="@+id/nav_microphone"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="Microphone" />
+        <item
+            android:id="@+id/nav_networkRecourcesFragment"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Network recourses" />
     </group>
 
 </menu>
