@@ -45,4 +45,9 @@
         android:name="ru.mirea.maiorovaa.mireaproject.NetworkRecourcesFragment"
         android:label="fragment_network_recources"
         tools:layout="@layout/fragment_network_recources" />
+    <fragment
+        android:id="@+id/nav_placesMapFragment"
+        android:name="ru.mirea.maiorovaa.mireaproject.PlacesMapFragment"
+        android:label="fragment_places_map"
+        tools:layout="@layout/fragment_places_map" />
 </navigation>

@@ -33,6 +33,10 @@
             android:id="@+id/nav_networkRecourcesFragment"
             android:icon="@drawable/ic_launcher_background"
             android:title="Network recourses" />
+        <item
+            android:id="@+id/nav_placesMapFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Places Map" />
     </group>
 
 </menu>

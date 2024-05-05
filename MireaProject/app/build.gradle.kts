@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation("com.yandex.android:maps.mobile:4.3.1-full")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.work:work-runtime:2.8.1")

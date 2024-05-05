@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_data, R.id.nav_webview, R.id.nav_sensor, R.id.nav_camera, R.id.nav_microphone, R.id.nav_profile, R.id.nav_fileoperations, R.id.nav_networkRecourcesFragment)
+                R.id.nav_data, R.id.nav_webview, R.id.nav_sensor, R.id.nav_camera, R.id.nav_microphone, R.id.nav_profile, R.id.nav_fileoperations, R.id.nav_networkRecourcesFragment, R.id.nav_placesMapFragment)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-                if (id == R.id.nav_data || id == R.id.nav_webview || id == R.id.nav_sensor || id == R.id.nav_camera || id == R.id.nav_microphone || id == R.id.nav_profile || id == R.id.nav_fileoperations || id == R.id.nav_networkRecourcesFragment) {
+                if (id == R.id.nav_data || id == R.id.nav_webview || id == R.id.nav_sensor || id == R.id.nav_camera || id == R.id.nav_microphone || id == R.id.nav_profile || id == R.id.nav_fileoperations || id == R.id.nav_networkRecourcesFragment|| id == R.id.nav_placesMapFragment) {
                     NavController navController = Navigation.findNavController(MainActivity.this, R.id.nav_host_fragment_content_main);
                     navController.navigate(id);
                     drawer.closeDrawers();
