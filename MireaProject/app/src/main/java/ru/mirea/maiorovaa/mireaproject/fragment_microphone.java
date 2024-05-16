@@ -59,6 +59,7 @@ public class fragment_microphone extends Fragment {
 
     private void startRecording() {
         outputFile = getActivity().getExternalCacheDir().getAbsolutePath() + "/recording.3gp";
+
         mediaRecorder = new MediaRecorder();
         mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
@@ -75,6 +76,7 @@ public class fragment_microphone extends Fragment {
             e.printStackTrace();
         }
     }
+
 
     private void stopRecording() {
         mediaRecorder.stop();
